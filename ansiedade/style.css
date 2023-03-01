@@ -1,7 +1,7 @@
 /* Definição de gradiente de cores */
 .container {
   background: linear-gradient(to bottom right, #990000, #660066);
-  color: white;
+  color: rgb(244, 49, 104);
   font-family: Arial, sans-serif;
   }
   
@@ -36,7 +36,7 @@
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
-  color: white;
+  color: rgb(241, 8, 8);
   background-color: rgba(255, 255, 255, 0.2);
   }
   
@@ -46,7 +46,7 @@
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
-  color: white;
+  color: rgb(173, 14, 209);
   background-color: #990000;
   }
 
