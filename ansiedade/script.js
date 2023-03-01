@@ -29,19 +29,19 @@ submitButton.addEventListener('click', (event) => {
   let image = '';
   if (average >= 4.5) {
     level = 'muito alta';
-    image = 'imagem1.png';
+    image = 'images/ansiedade.jpg';
   } else if (average >= 3.5) {
     level = 'alta';
-    image = 'imagem2.png';
+    image = 'images/ansiedade.jpg';
   } else if (average >= 2.5) {
     level = 'média';
-    image = 'imagem3.png';
+    image = 'images/ansiedade.jpg';
   } else if (average >= 1.5) {
     level = 'baixa';
-    image = 'imagem4.png';
+    image = 'images/ansiedade.jpg';
   } else {
     level = 'muito baixa';
-    image = 'imagem5.png';
+    image = 'images/ansiedade.jpg';
   }
 
   // Selecione o contêiner onde o resultado será exibido
