@@ -1,7 +1,7 @@
 /* Definição de gradiente de cores */
 .container {
   background: linear-gradient(to bottom right, #990000, #660066);
-  color: rgb(244, 49, 104);
+  color: white;
   font-family: Arial, sans-serif;
   }
   
@@ -29,24 +29,105 @@
   font-weight: bold;
   font-size: 1.2em;
   }
+
+  #q1 {
+    color: rgb(255, 255, 255);
+  }
   
+  #q1 option {
+    color: black;
+  }
+  
+  #q1 option[value="1"] {
+    background-color: white;
+  }
+  
+  #q1:hover option:not(:hover) {
+    background-color: inherit;
+  }
+  
+  #q1:hover option:hover {
+    background-color: pink;
+  }
+
+  #q2 {
+    color: rgb(255, 255, 255);
+  }
+  
+  #q2 option {
+    color: black;
+  }
+  
+  #q2 option[value="1"] {
+    background-color: white;
+  }
+  
+  #q2:hover option:not(:hover) {
+    background-color: inherit;
+  }
+  
+  #q2:hover option:hover {
+    background-color: pink;
+  }
+
+  #q3 {
+    color: rgb(255, 255, 255);
+  }
+  
+  #q3 option {
+    color: black;
+  }
+  
+  #q3 option[value="1"] {
+    background-color: white;
+  }
+  
+  #q3:hover option:not(:hover) {
+    background-color: inherit;
+  }
+  
+  #q3:hover option:hover {
+    background-color: pink;
+  }
+
+  #q4 {
+    color: rgb(255, 255, 255);
+  }
+  
+  #q4 option {
+    color: black;
+  }
+  
+  #q4 option[value="1"] {
+    background-color: white;
+  }
+  
+  #q4:hover option:not(:hover) {
+    background-color: inherit;
+  }
+  
+  #q4:hover option:hover {
+    background-color: pink;
+  }
+
+
   select {
   padding: 10px;
   margin: 10px 0;
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
-  color: rgb(241, 8, 8);
+  color: white;
   background-color: rgba(255, 255, 255, 0.2);
   }
-  
+
   button[type="submit"] {
   padding: 10px;
   margin: 20px 0;
   border: none;
   border-radius: 5px;
   font-size: 1.2em;
-  color: rgb(173, 14, 209);
+  color: white;
   background-color: #990000;
   }
 
