@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="light">
-
 <head>
   <meta charset="utf-8">
-  <title>Avaliação de desatenção e hoperatividade</title>
+  <title>Avaliação de desatenção e hiperatividade</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <main class="pt-0">
     <div class="quiz" data-active-step="1">
       <form id="quiz-form" data-quiz-type="redirect" data-quiz-redirect="https://www.gaiatech.com.br" method="post"
         action="#"><!-- Quiz Header -->
         <div class="quiz-header"><progress id="progress-bar" value="0" max="100"></progress></div>
-        <div class="container quiz-container"><!-- Step 1 -->
+        <div class="container quiz-container">
+          <!-- Step 1 -->
           <div class="step step-1 active">
             <h1 class="quiz-title">Responda o teste rápido para receber seu plano de ação para o TDAH</h1>
-            <p class="time-lead"><img src="../imgs/fast-icon.svg" alt="1 minuto"> Leva menos de 1 minuto!</p><br><br>
+            <p class="time-lead">Leva menos de 1 minuto!</p><br><br>
             <fieldset>
-              <legend>Qual é a sua idade?</legend><label><input type="radio" name="idade" value="18-24 anos"
-                  onclick="nextStep()"><span>18-24 anos</span></label><label><input type="radio" name="idade"
-                  value="25-34 anos" onclick="nextStep()"><span>25-34 anos</span></label><label><input type="radio"
-                  name="idade" value="35-44 anos" onclick="nextStep()"><span>35-44 anos</span></label><label><input
-                  type="radio" name="idade" value="45-54 anos" onclick="nextStep()"><span>45-54
-                  anos</span></label><label><input type="radio" name="idade" value="Mais de 55 anos"
-                  onclick="nextStep()"><span>Mais de 55 anos</span></label>
+              <legend>Qual é a sua idade?</legend>
+              <label><input type="radio" name="idade" value="18-24 anos" onclick="nextStep()"><span>18-24 anos</span></label>
+              <label><input type="radio" name="idade" value="25-34 anos" onclick="nextStep()"><span>25-34 anos</span></label>
+              <label><input type="radio" name="idade" value="35-44 anos" onclick="nextStep()"><span>35-44 anos</span></label>
+              <label><input type="radio" name="idade" value="45-54 anos" onclick="nextStep()"><span>45-54 anos</span></label>
+              <label><input type="radio" name="idade" value="Mais de 55 anos" onclick="nextStep()"><span>Mais de 55 anos</span></label>
             </fieldset>
-          </div><!-- Step 2 -->
+          </div>
+          <!-- Step 2 -->
           <div class="step step-2">
             <fieldset>
               <legend>Com que frequência você tem dificuldade para se concentrar?</legend><label><input type="radio"
