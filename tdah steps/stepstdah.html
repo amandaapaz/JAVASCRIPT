@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <title>Avaliação de desatenção e hoperatividade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="pt-0">
+    <div class="quiz" data-active-step="1">
+      <form id="quiz-form" data-quiz-type="redirect" data-quiz-redirect="https://www.gaiatech.com.br" method="post"
+        action="#"><!-- Quiz Header -->
+        <div class="quiz-header"><progress id="progress-bar" value="0" max="100"></progress></div>
+        <div class="container quiz-container"><!-- Step 1 -->
+          <div class="step step-1 active">
+            <h1 class="quiz-title">Responda o teste rápido para receber seu plano de ação para o TDAH</h1>
+            <p class="time-lead"><img src="../imgs/fast-icon.svg" alt="1 minuto"> Leva menos de 1 minuto!</p><br><br>
+            <fieldset>
+              <legend>Qual é a sua idade?</legend><label><input type="radio" name="idade" value="18-24 anos"
+                  onclick="nextStep()"><span>18-24 anos</span></label><label><input type="radio" name="idade"
+                  value="25-34 anos" onclick="nextStep()"><span>25-34 anos</span></label><label><input type="radio"
+                  name="idade" value="35-44 anos" onclick="nextStep()"><span>35-44 anos</span></label><label><input
+                  type="radio" name="idade" value="45-54 anos" onclick="nextStep()"><span>45-54
+                  anos</span></label><label><input type="radio" name="idade" value="Mais de 55 anos"
+                  onclick="nextStep()"><span>Mais de 55 anos</span></label>
+            </fieldset>
+          </div><!-- Step 2 -->
+          <div class="step step-2">
+            <fieldset>
+              <legend>Com que frequência você tem dificuldade para se concentrar?</legend><label><input type="radio"
+                  name="dificuldade-concentracao" value="Quase sempre" onclick="nextStep()"><span>Quase
+                  sempre</span></label><label><input type="radio" name="dificuldade-concentracao" value="Às vezes"
+                  onclick="nextStep()"><span>Às vezes</span></label><label><input type="radio"
+                  name="dificuldade-concentracao" value="Raramente" onclick="nextStep()"><span>Raramente</span></label>
+            </fieldset>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step step-3">
+            <fieldset>
+              <legend>Com que frequência você tem hiperatividade?</legend><label><input type="radio"
+                  name="hiperatividade" value="Quase sempre" onclick="nextStep()"><span>Quase
+                  sempre</span></label><label><input type="radio" name="hiperatividade" value="Às vezes"
+                  onclick="nextStep()"><span>Às vezes</span></label><label><input type="radio" name="hiperatividade"
+                  value="Raramente" onclick="nextStep()"><span>Raramente</span></label>
+            </fieldset>
+          </div>
+
+          <!-- Botão de Resultado -->
+          <div class="result-button"><button onclick="submitForm()">Obter Resultado</button></div>
+          <script>function submitForm() { const form = document.querySelector('form'); form.submit(); } </script>
+
+
+          <script src="script.js"></script>
+
+</html>
